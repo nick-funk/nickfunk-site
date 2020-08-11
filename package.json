@@ -1,0 +1,23 @@
+{
+  "name": "nickfunk-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nick-funk/nickfunk-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nick-funk/nickfunk-site/issues"
+  },
+  "homepage": "https://github.com/nick-funk/nickfunk-site#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
