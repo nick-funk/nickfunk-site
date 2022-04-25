@@ -37,6 +37,22 @@ body {
   width: 100%;
 }
 
+.chart-img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 850px) {
+  .chart-img {
+    width: 65%;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .chart-img {
+    width: 768px;
+  }
+}
+
 ::-webkit-scrollbar {
   border-radius: 8px;
 }
