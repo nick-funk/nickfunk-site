@@ -101,6 +101,13 @@ p {
   width: 100%;
 
   display: flex;
+  justify-content: center;
+}
+
+.links-inner {
+  min-width: 150px;
+
+  display: flex;
   flex-direction: column;
 }
 
@@ -109,6 +116,8 @@ p {
   flex-grow: 1;
   justify-content: center;
 
+  border-radius: 4px;
+
   padding-top: 8px;
   padding-bottom: 8px;
 
@@ -116,6 +125,10 @@ p {
   text-decoration: none;
 
   font-size: 1rem;
+}
+
+.link:hover {
+  background-color: #888;
 }
 
 .linkContent {
