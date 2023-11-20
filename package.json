@@ -10,6 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/nick-funk/nickfunk-site.git"
   },
+  "engines": {
+    "node": "^20.9.0",
+    "npm": "^10.1.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
